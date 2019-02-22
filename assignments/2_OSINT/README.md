@@ -19,17 +19,42 @@ Use OSINT techniques to learn as much as you can about `v0idcache` and answer th
 
 1. What is `v0idcache`'s real name?
 
+v0idcache’s real name is Elizabeth Moffet
+
 2. Where does `v0idcache` work? What is the URL to their website?
+
+v0idcache works at 1337bank, the url to their website is http://1337bank.money/
 
 3. List all personal information (including social media accounts, contacts, etc) you can find about `v0idcache`. For each, briefly detail how you discovered them.
 
+I believe Elizabeth Moffet is from Waterland, Netherlands and I found social media accounts linked to her on
+twitter @v0idcache, using usersearch.org with the username “v0idcache”
+videobam, using usersearch.org with the username “v0idcache”
+flickr, using usersearch.org with the email “v0idcache@protonmail.com”
+reddit, using checkusernames.com with the username “v0idcache”
+
+
 4. List any ( >= 1 ) IP addresses associated with the website. For each, detail the location of the server, any history in DNS, and how you discovered this information.
+
+Using the command nslookup with the bank url at my terminal command line I was able to find the ip address of the website 1337.bank.money, and using yougetsignal.com i found out that port 80 was open
+142.93.136.81
+
 
 5. List any hidden files or directories you found on this website. For full credit, list *two* distinct flags.
 
+http://1337bank.money/secret_directory
+CMSC389R-{0M3G4LUL_G3T_pWN3d_N00b}
+CMSC389R-{h1ding_fil3s_in_r0bots_L0L}
+
+
 6. What ports are open on the website? What services are running behind these ports? How did you discover this?
 
+port 80
+port 22, ssh something im not too sure
+
 7. Which operating system is running on the server that is hosting the website? How did you discover this?
+
+i think it may be ubuntu, when i tried ncing into the ip with port 22 it said something about ubuntu lol
 
 8. **BONUS:** Did you find any other flags on your OSINT mission? (Up to 9 pts!)
 

@@ -26,8 +26,8 @@
 
 import socket
 
-host = "" # IP address here
-port = 0000 # Port here
+host = "142.93.136.81" # IP address here
+port = 80 # Port here
 wordlist = "/usr/share/wordlists/rockyou.txt" # Point to wordlist file
 
 def brute_force():
@@ -55,7 +55,7 @@ def brute_force():
             v0idcache's server.
     """
 
-    username = ""   # Hint: use OSINT
+    username = "v0idcache"   # Hint: use OSINT
     password = ""   # Hint: use wordlist
 
 
